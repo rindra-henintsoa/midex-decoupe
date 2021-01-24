@@ -1,0 +1,272 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot');
+  src:  url('icomoon.eot#iefix') format('embedded-opentype'),
+    url('icomoon.ttf') format('truetype'),
+    url('icomoon.woff') format('woff'),
+    url('icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="fnt-rdvdiag-"], [class*=" fnt-rdvdiag-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fnt-rdvdiag-info:before {
+  content: "\e917";
+}
+.fnt-rdvdiag-mesurage:before {
+  content: "\e900";
+}
+.fnt-rdvdiag-amiante:before {
+  content: "\e901";
+}
+.fnt-rdvdiag-appartement:before {
+  content: "\e902";
+}
+.fnt-rdvdiag-autre:before {
+  content: "\e903";
+}
+.fnt-rdvdiag-autre-bien:before {
+  content: "\e904";
+}
+.fnt-rdvdiag-avantages:before {
+  content: "\e905";
+}
+.fnt-rdvdiag-coordonnees:before {
+  content: "\e906";
+}
+.fnt-rdvdiag-cout:before {
+  content: "\e907";
+}
+.fnt-rdvdiag-devis:before {
+  content: "\e908";
+}
+.fnt-rdvdiag-dpe:before {
+  content: "\e909";
+}
+.fnt-rdvdiag-elec:before {
+  content: "\e90a";
+}
+.fnt-rdvdiag-elec-diag:before {
+  content: "\e90b";
+}
+.fnt-rdvdiag-erp:before {
+  content: "\e90c";
+}
+.fnt-rdvdiag-erp-diag:before {
+  content: "\e90d";
+}
+.fnt-rdvdiag-gaz:before {
+  content: "\e90e";
+}
+.fnt-rdvdiag-gaz-diag:before {
+  content: "\e90f";
+}
+.fnt-rdvdiag-location:before {
+  content: "\e910";
+}
+.fnt-rdvdiag-maison:before {
+  content: "\e911";
+}
+.fnt-rdvdiag-plomb:before {
+  content: "\e912";
+}
+.fnt-rdvdiag-rdv:before {
+  content: "\e913";
+}
+.fnt-rdvdiag-termite:before {
+  content: "\e914";
+}
+.fnt-rdvdiag-test:before {
+  content: "\e915";
+}
+.fnt-rdvdiag-vente:before {
+  content: "\e916";
+}
+
+.form-devis-top {
+  position: relative; z-index: 1;
+}
+
+.banner-form .banner-form {
+	background-color: white;
+	border-radius: 0 0 25px 25px;
+}
+.banner-form {
+  position: relative;
+  width: 100%;
+	padding: 20px;
+}
+.banner-form .form-group{
+	position:relative;
+	margin-bottom:10px;	
+	width: 100%;
+}
+.banner-form .form-group i{
+	position: absolute;
+	top: 10px;
+	left: 14px;
+	font-size: 24px;
+	z-index: 55;
+	color: #a9a9a9;
+}
+.banner-form .form-group i.fa-calendar-alt {
+	position: relative;
+	left: 0;
+}
+.banner-form .form-group i.fa-calendar-alt:hover, .banner-form .form-group:hover i.fa-calendar-alt {
+	color: #000!important;
+}
+.banner-form .form-group i::before{
+	font-size: 20px;
+}
+.banner-form .form-group .form-control { min-height: auto; }
+.no_date_selected {
+	border: 1px solid rgba(169, 169, 169, 255);
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+.banner-form .form-group input[type="text"], 
+.banner-form .form-group input[type="email"] ,
+.banner-form .form-group input[type="button"] ,
+.banner-form .form-group button {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 14px; font-family: "opensans-semibold",sans-serif;
+    color: #a9a9a9;
+    line-height: 30px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    height: 46px;
+    border: 1px solid #c9c2c2;
+    font-weight: 400;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	cursor: pointer;
+	text-align: left;
+	padding-left: 50px;
+	font-weight: 300;
+}
+.banner-form .form-group  button.active, .banner-form .form-group button:hover,  .banner-form .form-group button:focus {
+  background-color: #2899d0;
+  border-radius: 5px;
+	font-weight: 600;
+}
+.banner-form .form-group  button.active *, .banner-form .form-group button:hover *,  .banner-form .form-group button:focus *,.banner-form .form-group  button.active, .banner-form .form-group button:hover,  .banner-form .form-group button:focus  {
+  color: white; border-color: #2899d0;
+}
+.banner-form .form-group input:focus,
+.banner-form .form-group select:focus{
+	border-color: #ed6a0d;
+}
+
+.banner-form .form-group  button.active {
+  color: white; box-shadow: inset 0px 3px 10px rgba(0,0,0,.5);border: none;
+}
+
+.banner-form .form-group button{
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 15px 15px 15px 45px;
+  line-height: 14px;
+  z-index: 50;
+  outline: none; border-radius: 5px; border-color: #e9e4e4;
+}
+.banner-form p.label {
+	text-align: left;
+	font-family: 'opensans-semibold', sans-serif;
+	color: #fff;
+	font-weight: 500;
+	font-size: 15px;
+	padding: 0;
+}
+.banner-form p.label span {
+	 color: #464646;
+    background-color: #fff;
+    font-size: 16px; line-height: 32px;
+    position: relative;
+    text-align: center;
+    border-radius: 50%; margin-right: 5px; margin-bottom: 10px;
+    font-family: 'opensans-bold', sans-serif;
+    display: inline-block; width: 32px; height: 32px; vertical-align: middle;
+}
+.banner-form .form-group button.btn-style-four {
+  height: 45px !important; line-height: 9px;
+  text-transform: capitalize !important;
+  font-style: italic; font-family: 'opensans-semibold',sans-serif;
+  color: white !important;
+  padding: 8px 60px 10px !important;
+  text-align: center !important;
+  background-color: #0a2b4a !important;
+  position: relative;
+  font-size: 17px !important; border: none;
+	cursor: pointer; display: block; vertical-align: middle; width: 100%;
+}
+
+.banner-form .form-group .btn-style-four::before {
+  content: '';
+  position:  absolute;
+  right: 10px;
+  top: 50%; margin-top: -7px;
+  background: url('../../images/header/icon-arrow-btn.svg') no-repeat center; width: 7px; height: 11px;
+}
+.banner-form .form-group button.btn-style-four:hover {
+  background-color: #000 !important;
+}
+
+.banner-form .bloc-date {
+  margin: 5px 0;
+}
+.banner-form .bloc-date .form-group .form-control {
+  height: 58px; border: 1px solid #a9a9a9; padding: 10px 10px 10px 75px;
+}
+.banner-form .bloc-date .form-group i {
+  top: 12px; left: 19px;
+}
+.banner-form .bloc-date .form-group i img { margin: 0; }
+
+.banner-form .bloc-btn .form-group {
+  margin: 0; text-align: center;
+}
+
+.get-quote-form {
+  max-width: 850px; margin: -165px auto 0;
+}
+
+.get-quote-form img {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.get-quote-form .h2 {
+  font-size: 13px;
+  line-height: 14px;
+  color: #fff;
+  text-align: left;
+  width: 175px;
+  position: relative;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+  padding: 14px 18px;
+  font-weight: 600;
+  font-family: 'opensans-bold', sans-serif;
+  border-radius: 4px 4px 0 0;
+}
